@@ -33,22 +33,22 @@ class _InicioState extends State<Inicio> {
             Container(
               padding: EdgeInsets.all(20.0),
               child: Image.network(
-                  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muycomputerpro.com%2F2014%2F03%2F28%2Fhackers-seguridad&psig=AOvVaw3Wvqc6ikaeASxWBIoMmJRA&ust=1647641521604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDm25-VzvYCFQAAAAAdAAAAABAD"),
+                  "https://p4.wallpaperbetter.com/wallpaper/547/618/370/programming-language-technology-tilt-shift-computer-hd-wallpaper-preview.jpg"),
             ),
             Container(
               padding: EdgeInsets.all(20.0),
               child: Image.network(
-                  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muycomputerpro.com%2F2014%2F03%2F28%2Fhackers-seguridad&psig=AOvVaw3Wvqc6ikaeASxWBIoMmJRA&ust=1647641521604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDm25-VzvYCFQAAAAAdAAAAABAD"),
+                  "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2019/03/javascript.jpg?itok=swiNkiqI"),
             ),
             Container(
               padding: EdgeInsets.all(20.0),
               child: Image.network(
-                  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muycomputerpro.com%2F2014%2F03%2F28%2Fhackers-seguridad&psig=AOvVaw3Wvqc6ikaeASxWBIoMmJRA&ust=1647641521604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDm25-VzvYCFQAAAAAdAAAAABAD"),
+                  "https://i0.wp.com/hipertextual.com/wp-content/uploads/2020/12/hipertextual-hacker-vacuna-covid-19-1.jpg?resize=1536%2C865&ssl=1"),
             ),
             Container(
               padding: EdgeInsets.all(20.0),
               child: Image.network(
-                  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muycomputerpro.com%2F2014%2F03%2F28%2Fhackers-seguridad&psig=AOvVaw3Wvqc6ikaeASxWBIoMmJRA&ust=1647641521604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDm25-VzvYCFQAAAAAdAAAAABAD"),
+                  "https://i0.wp.com/hipertextual.com/wp-content/uploads/2020/12/hipertextual-hacker-vacuna-covid-19-1.jpg?resize=1536%2C865&ssl=1"),
             )
           ],
         ));
