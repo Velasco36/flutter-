@@ -26,10 +26,31 @@ class _InicioState extends State<Inicio> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Mi APP"),
+          title: Text("DESARROLLAOR VELASCO"),
         ),
-        body: Center(
-          child: Text("Contenido"),
+        body: ListView(
+          children: [
+            Container(
+              padding: EdgeInsets.all(20.0),
+              child: Image.network(
+                  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muycomputerpro.com%2F2014%2F03%2F28%2Fhackers-seguridad&psig=AOvVaw3Wvqc6ikaeASxWBIoMmJRA&ust=1647641521604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDm25-VzvYCFQAAAAAdAAAAABAD"),
+            ),
+            Container(
+              padding: EdgeInsets.all(20.0),
+              child: Image.network(
+                  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muycomputerpro.com%2F2014%2F03%2F28%2Fhackers-seguridad&psig=AOvVaw3Wvqc6ikaeASxWBIoMmJRA&ust=1647641521604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDm25-VzvYCFQAAAAAdAAAAABAD"),
+            ),
+            Container(
+              padding: EdgeInsets.all(20.0),
+              child: Image.network(
+                  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muycomputerpro.com%2F2014%2F03%2F28%2Fhackers-seguridad&psig=AOvVaw3Wvqc6ikaeASxWBIoMmJRA&ust=1647641521604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDm25-VzvYCFQAAAAAdAAAAABAD"),
+            ),
+            Container(
+              padding: EdgeInsets.all(20.0),
+              child: Image.network(
+                  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muycomputerpro.com%2F2014%2F03%2F28%2Fhackers-seguridad&psig=AOvVaw3Wvqc6ikaeASxWBIoMmJRA&ust=1647641521604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDm25-VzvYCFQAAAAAdAAAAABAD"),
+            )
+          ],
         ));
   }
 }
