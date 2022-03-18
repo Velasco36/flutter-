@@ -28,28 +28,20 @@ class _InicioState extends State<Inicio> {
         appBar: AppBar(
           title: Text("DESARROLLAOR VELASCO"),
         ),
-        body: ListView(
-          children: [
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          children: <Widget>[
             Container(
-              padding: EdgeInsets.all(20.0),
-              child: Image.network(
-                  "https://p4.wallpaperbetter.com/wallpaper/547/618/370/programming-language-technology-tilt-shift-computer-hd-wallpaper-preview.jpg"),
+              height: 50,
+              width: MediaQuery.of(context).size.width,
+              child: Text(
+                "Hola bebe",
+                textAlign: TextAlign.center,
+              ),
             ),
-            Container(
-              padding: EdgeInsets.all(20.0),
-              child: Image.network(
-                  "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2019/03/javascript.jpg?itok=swiNkiqI"),
-            ),
-            Container(
-              padding: EdgeInsets.all(20.0),
-              child: Image.network(
-                  "https://i0.wp.com/hipertextual.com/wp-content/uploads/2020/12/hipertextual-hacker-vacuna-covid-19-1.jpg?resize=1536%2C865&ssl=1"),
-            ),
-            Container(
-              padding: EdgeInsets.all(20.0),
-              child: Image.network(
-                  "https://i0.wp.com/hipertextual.com/wp-content/uploads/2020/12/hipertextual-hacker-vacuna-covid-19-1.jpg?resize=1536%2C865&ssl=1"),
-            )
+            Text("Hola mundanos")
           ],
         ));
   }
